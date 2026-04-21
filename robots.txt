@@ -1,0 +1,43 @@
+# =====================================================
+# robots.txt — Neuraon Technologies
+# https://neuraon.com
+# © 2026 Neuraon Technologies. All rights reserved.
+# =====================================================
+
+User-agent: *
+Allow: /
+
+# Block any potential admin or private paths
+Disallow: /admin/
+Disallow: /private/
+Disallow: /tmp/
+Disallow: /*.json$
+
+# Allow all major crawlers explicitly
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: facebookexternalhit
+Allow: /
+
+User-agent: Twitterbot
+Allow: /
+
+# Google AdSense crawler
+User-agent: Mediapartners-Google
+Allow: /
+
+# Sitemap location
+Sitemap: https://neuraon.com/sitemap.xml
