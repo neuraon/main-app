@@ -42,14 +42,6 @@
     <priority>0.6</priority>
   </url>
 
-  <!-- External Products — Smart SIP -->
-  <url>
-    <loc>https://SmartSIP.neuraon.com/</loc>
-    <lastmod>2026-01-01</lastmod>
-    <changefreq>daily</changefreq>
-    <priority>0.9</priority>
-  </url>
-
   <!-- External Products — SkyNotes -->
   <url>
     <loc>https://skynotes.neuraon.com/</loc>
